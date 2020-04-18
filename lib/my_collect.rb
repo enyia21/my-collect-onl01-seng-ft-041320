@@ -4,10 +4,9 @@ def my_collect
      collection = []
      while i < array.length
         collection << yield(array[i]) #hops out of code into:  do|lang| lang.upcase end block
-        i +=1 
+        i +=1
      end
      collection
    else
    end
 end
-
